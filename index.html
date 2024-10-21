@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="movil.css">
+   <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://kit.fontawesome.com/bd50cea79c.js" crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+<body>
+<header class="ancho principal">
+  <div class="container_logo">
+    <figure>
+      <img src="imagenes/logo_arriba.png" alt="">
+    </figure>
+  </div>
+  <nav>
+    <div class="menu" id="iconomenu">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <ul id="contenedormenu">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Nuestros productos</a></li>
+      <li><a href="#">Contactanos</a></li>
+    </ul>
+    </div>
+  </nav>
+</header>
+
+<section class="container_fondo">
+  <div class="conte">
+    <div class="letra_titulo">
+      <h1>Cultivamos verduras orgánicas y las traemos a las traemos a tu mesa</h1>
+    </div>
+  </div>
+</section>
+
+<section class="container_servicios">
+<div class="texto_servicio">
+  <h2>Nuestros servicios</h2>
+  <p>Lo que ofrecemos</p>
+</div>
+
+<section class="container_cards ancho">
+  <article>
+      <figure>
+        <img src="imagenes/icono1.png">
+      </figure>
+      <p id="pverde">Ganado vacuno</p>
+    <br>
+    <p id="pnegro">Carne de res producida sin ingeniería genética, uso de radiación ionizante o lodos de depuradora.</p>
+  </article>
+
+    <article>
+      <figure>
+        <img src="imagenes/icono2.png">
+      </figure>
+      <p id="pverde">Productos lacteos</p>
+    <br>
+    <p id="pnegro">Los productos lácteos como la leche, el queso y el yogur contienen los nutrientes que su cuerpo necesita.</p>
+  </article>
+
+  <article>
+    <figure>
+      <img src="imagenes/icono3.png">
+    </figure>
+    <p id="pverde">Frutas de la huerta</p>
+  <br>
+  <p id="pnegro">Cubre todo lo que necesita saber para cultivar y comercializar con éxito sus propias frutas orgánicas de huerta.</p>
+</article>
+</section>
+<br><br>
+</section>
+<footer>
+  <figure>
+    <img src="imagenes/logo_abajo.png" alt="">
+  </figure>
+</footer>
+
+<script>
+
+$("#iconomenu").click(function(){
+    $("#contenedormenu").slideToggle();
+});
+
+</script>
+
+</body>
+</html>

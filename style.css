@@ -1,0 +1,146 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.ancho {
+  max-width: 1200px;
+  margin: auto;
+}
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.container_logo{
+  max-width:220px;
+}
+.container_logo figure{
+max-width:100%;
+}
+.container_logo figure img{
+  max-width:100%;
+}
+.menu{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: none;
+}
+.menu i{
+  font-size: 30px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+.container_fondo {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  height: 400px;
+  background-image: url('imagenes/foto_slide.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.conte{
+  width: 950px;
+  height: 300px;
+  padding-top: 40px;
+}
+.letra_titulo{
+  max-width: 560px;
+}
+.letra_titulo h1{
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+  text-align:start;
+  line-height: 1;
+}
+
+
+/*-cards*/
+
+.texto_servicio{
+  padding: 40px;
+  text-align: center;
+}
+.texto_servicio h2{
+  font-size: 28px;
+  font-weight: 400;
+  color: black;
+}
+.texto_servicio p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #6AB502;
+}
+
+.container_cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.container_cards article{
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  padding: 25px 25px 50px 25px;
+  background-color: #F3F3F3;
+  border-radius: 15px;
+}
+figure{
+  max-width: 100px;
+}
+figure img{
+  width: 100%;
+}
+#pverde{
+  color: #6AB502;
+  font-size: 20px;
+}
+#pnegro{
+  font-weight: 500;
+}
+
+footer{
+  background-color: #6AB502;
+  padding: 30px;
+}
+footer figure {
+  margin: auto;
+  max-width: 230px;
+}
+footer figure img {
+width: 100%;
+}
